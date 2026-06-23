@@ -1,8 +1,8 @@
 # Text Converter to snake_case
-I built this converter because sometimes you get data or code from other systems (like JavaScript or Java) that use `PascalCase` or `camelCase`. This tool helps automate the boring task of renaming everything to keep your Python code consistent.
+Sometimes you get data or code from other systems (like JavaScript or Java) that use `PascalCase` or `camelCase` right? This tool helps automate the boring task of renaming everything to keep your Python code consistent.
 
 ## Personal Tweak
-This project is based on the FreeCodeCamp (FCC) Scientific Computing with Python curriculum. And I added `if __name__ == '__main__':` to make the script **smart**.
+This project is based on the freeCodeCamp Scientific Computing with Python curriculum. And I added `if __name__ == '__main__':` to make the script **smart** :)
 
 * **With it**: The script knows the difference between being run directly (it executes the `main()` function) and being imported as a tool (it stays quiet and just lets the other script use the function). It’s basically a "safety switch" for professional code.
 * **Without it**: If another script tried to "borrow" (import) my conversion function, the program would accidentally start asking for user input immediately.
