@@ -1,18 +1,18 @@
-# Expense Tracker (WIP)
-Currently still learning about Streamlit, JSON and Pandas! Feedback is welcome.
+# Expense Tracker (Pending Project)
+Currently still learning about Streamlit, JSON and Pandas to make the UI. Feedbacks are welcome!
 
 -----------
 
 A simple Python CLI tool to manage daily expenses. Built to practice working with data structures and functional programming in Python. 
 <br><br>
-The main script is based on the FreeCodeCamp (FCC) Scientific Computing with Python curriculum and I added some changes to it by adding:
+The main script is based on the freeCodeCamp Scientific Computing with Python curriculum and I added some changes to it by adding:
 
 * `try-except`: To validate so that the program doesn't error when the input is not a number.
 * `JSON`:
 * `Streamlit`:
 * and more to go! (this project is still in progress..)
 
-## Features (TODO: TWEAK)
+## Features **(TODO: TWEAK)**
 * **Dynamic Data Storage**: Utilizes a list of dictionaries to manage expense records efficiently.
 * **Functional Programming**: By implementing Python's built-in `map()` and `filter()` functions combined with `lambda` expressions for streamlined data processing & filtering.
 * **Modular Design**: The codebase is organized into distinct, single-responsibility functions `(Add, Print, Total, Filter)` to ensure high maintainability and readability.
@@ -24,10 +24,10 @@ The main script is based on the FreeCodeCamp (FCC) Scientific Computing with Pyt
 * `ui_expense.py` — (streamlit)
 * `storage_py` — (json)
 * `README.md` — The documentation you are reading right now.
-* `requirements.txt` — TODO: ADD LATER
-* `.gitignore` — TODO: ADD LATER
+* `requirements.txt` — **(TODO: ADD LATER)**
+* `.gitignore` — **(TODO: ADD LATER)**
 
-## How It Works (TODO: EXPLAIN THE MAIN PY, UI, JSON)
+## How It Works **(TODO: EXPLAIN THE MAIN PY, UI, JSON)**
 ```bash
 User Input -> Main Loop -> Function Logic -> Expenses List (Data Store) -> UI Output
 ```
@@ -47,4 +47,4 @@ User Input -> Main Loop -> Function Logic -> Expenses List (Data Store) -> UI Ou
 1. **TODO**: UPDATE LIST
 
 ## Output
-(TODO: INSERT DOCUMENTATION 1 — TERMINAL VER)(DOCUMENTATION 2 — STREAMLIT VER)
+**(TODO: INSERT DOCUMENTATION 1 — TERMINAL VER)(DOCUMENTATION 2 — STREAMLIT VER)**
